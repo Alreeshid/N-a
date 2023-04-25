@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(95, 104, 112);
+}
+
+#wrapper{
+    width:1%;
+    margin:auto;
+    margin-top: 0.8%;
+    height: 1%;
+
+    border: 1px silver;
+    border-style: ridge groove groove ridge;
+
+    border-radius: 2px;
+    background-color:aliceblue;
+    opacity:87%;
+    position: relative;
+    overflow: auto;
+}
+
+table{
+    font-size: 25px;
+    color:rgb(245, 235, 181);
+
+    width:67%;
+    height: 85%;;
+    /* border:2px solid black; */
+    text-align: center;
+    justify-content: center;
+    
+    margin:auto;
+    position: relative;
+    row-gap: 5px;
+
+    border-collapse: separate;
+    border-spacing:55px;
+}
+td{
+    width:200px;
+    height:200px;
+    border:2px solid silver;
+    background-color:rgb(90, 118, 143);
+}
+
+#info{
+    background-color:aliceblue;
+    border:none;
+    padding: 0%;
+}
+#infoButton{
+    height:120px;
+    width:225px;
+    border: 2px solid rgb(235, 199, 39);
+    margin:auto;
+
+    background-color:rgb(66, 111, 150);
+    padding:0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#textRow{
+    display: none;
+    font-size: .77em;
+}
+#textRow img{
+    /* display: none; */
+    width:150px;
+    height:150px;
+}
+
+#webProjTable{
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+.projName td div{
+    width: 20%;
+    background-color:aliceblue;
+    color:red;
+    display: flex;
+    justify-content: center;
+}
+
+
