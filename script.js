@@ -15,6 +15,10 @@ function infoAnim(e){
     var box = $("#infoButton");
     if(e){
         box.animate({backgroundColor: "black", borderRadius:"50px"}, 400);
+        $("#info").stop().animate({opacity: 0},1000,function(){
+            $(this).css({'background-image': "url('https://upload.wikimedia.org/wikipedia/commons/8/81/Cyrillic_letter_A_-_uppercase_and_lowercase.svg)"})
+                       .animate({opacity: 1},{duration:1000});
+         });
     }
     else if(!e){
         box.animate({backgroundColor: "#426F96", borderRadius:"0px"}, 200);
@@ -73,3 +77,4 @@ function achieveAnim(e){
         box.animate({backgroundColor: "#426F96", borderRadius:"5px"}, 200);
     }
 }
+
