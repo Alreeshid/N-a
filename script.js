@@ -16,7 +16,7 @@ function infoAnim(e){
     if(e){
         box.animate({backgroundColor: "black", borderRadius:"50px"}, 400);
         $("#info").stop().animate({opacity: 0},1000,function(){
-            $(this).css({'background-image': "url('https://upload.wikimedia.org/wikipedia/commons/8/81/Cyrillic_letter_A_-_uppercase_and_lowercase.svg)"})
+            $(this).css({'background-image': "url('https://wallpaperaccess.com/full/1347158.jpg')"})
                        .animate({opacity: 1},{duration:1000});
          });
     }
